@@ -9,6 +9,8 @@ var bodyParser = require('body-parser');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
+var cliente = require('./routes/cliente');
+var analitics = require('./routes/analitics');
 
 var appInsights = require('applicationinsights');
 if(process.env.NODE_ENV == "production"){
@@ -33,6 +35,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/cliente', cliente);
+app.use('/analitics', analitics);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
