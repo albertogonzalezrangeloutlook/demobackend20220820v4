@@ -1,4 +1,4 @@
-# Nodejs Express web application
+# Nodejs Express web application.
 
 Sample Nodejs Express web application built on [visual studio code](https://code.visualstudio.com/).
 
