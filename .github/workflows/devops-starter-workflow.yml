@@ -12,7 +12,7 @@ env:
   REGISTRYSKU: "Basic"
   REGISTRYNAME: "demobackend20220820v4acr"
   REGISTRYLOCATION: "South Central US"
-  IMAGENAME: "demobackend20220820v4ce26"
+  IMAGENAME: "demobackend20220820v4ce27"
   RESOURCEGROUPNAME: demobackend20220820v4-rg
   LOCATION: South Central US
   APPINSIGHTSLOCATION: South Central US
